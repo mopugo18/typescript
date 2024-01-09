@@ -1,59 +1,97 @@
-﻿<html>
+﻿<!DOCTYPE html>
 
+<html lang="en">
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="bootstrap/bootstrap-4.4.1-dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="styles.css">
+	<meta charset="utf-8">
+	<title>TS Operators</title>
+
 </head>
 
 <body>
-	<div>
-		TypeScript - Operators
-		What is an Operator?
+	<div id="content">
+		<img src="TypeScriptLogo.png" alt="Ts logo" id="picture"> 
+		
+		<h1>TypeScript - Operators</h1>
+		<h2>What is an Operator?</h2>
 		An operator defines some function that will be performed on the data. The data on which operators work are called operands. Consider the following expression:
-		7 + 5 = 12
+		<div>
+			<p id="keplet">7 + 5 = 12</p>
+		</div>
 		Here, the values 7, 5, and 12 are operands, while + and = are operators.
 		The major operators in TypeScript can be classified as:
 
-		Arithmetic operators
-		Logical operators
-		Relational operators
-		Bitwise operators
-		Assignment operators
-		Ternary/conditional operator
-		String operator
-		Type operator
+		<ul>
+			<li>Arithmetic operators</li>
+			<li>Logical operators</li>
+			<li>Relational operators</li>
+			<li>Bitwise operators</li>
+			<li>Assignment operators</li>
+			<li>Ternary/conditional operator</li>
+			<li>String operator</li>
+			<li>Type operator</li>
+		</ul>
 
-		Relational Operators
-		Relational Operators test or define the kind of relationship between two entities. Relational operators return a Boolean value, i.e., true/ false.
-		Assume the value of A is 10 and B is 20.
+		<h2>Relational Operators</h2>
+		<p>
+			Relational Operators test or define the kind of relationship between two entities. Relational operators return a Boolean value, i.e., true/ false.
+			Assume the value of A is 10 and B is 20.
+		</p>
+		<table>
+			<tr>
+				<td>Operator</td>
+				<td>Description</td>
+				<td>Example</td>
+			</tr>
+		</table>
+		
+		<tr>
+			<td>
+				&gt;
+				</td>
+			<td>Greater than</td>
+			<td>(A &gt; B) is False
+				&lt;</td>
+		</tr>
+		<tr>
+			<td>&lt;
+				</td>
+			<td>Lesser than</td>
+			<td>(A &lt; B) is True</td>
+		</tr>
+		<tr>
+			<td>&gt;=
+				</td>
+			<td>Greater than or equal to</td>
+			<td>(A &gt;= B) is False</td>
+		</tr>
+		<tr>
+			<td>&lt;</td>
+			<td>Lesser than or equal to</td>
+			<td>(A &lt;= B) is False</td>
+		</tr>
+		<tr>
+			<td>==</td>
+			<td>Equality</td>
+			<td>(A == B) is False</td>
+		</tr>
+		<tr>
+			<td>!=</td>
+			<td>Not equal</td>
+			<td>(A != B) is True</td>
+		</tr>
 
-		Operator
-		Description
-		Example
-		&gt;
-		Greater than
-		(A &gt; B) is False
-		&lt;
-		Lesser than
-		(A &lt; B) is True
-		&gt;=
-		Greater than or equal to
-		(A &gt;= B) is False
-		&lt;
-		Lesser than or equal to
-		(A &lt;= B) is False
-		==
-		Equality
-		(A == B) is False
-		!=
-		Not equal
-		(A != B) is True
+
+
+
 
 	</div>
-	<script src="bootstrap-4.4.1-dist/js/jquery.min.js"></script>
-	<script src="bootstrap-4.4.1-dist/js/tether.min.js"></script>
-	<script src="bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
-	<script src="bootstrap-4.4.1-dist/js/jquery.easing.min.js"></script>
+	<script src="bootstrap/bootstrap-4.4.1-dist/js/jquery.min.js"></script>
+	<script src="bootstrap/bootstrap-4.4.1-dist/js/tether.min.js"></script>
+	<script src="bootstrap/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+	<script src="bootstrap/bootstrap-4.4.1-dist/js/jquery.easing.min.js"></script>
 </body>
 
 </html>

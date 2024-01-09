@@ -1,6 +1,9 @@
 body {
   background-color: rgb(111, 111, 111);
   background-size: cover;
+  background-image: url(TypeScriptBack.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 p {
@@ -13,6 +16,9 @@ p {
   margin-top: 40px;
   background-color: rgba(255, 255, 255, 0.85);
   border-radius: 30px;
+  width: 80%;
+  padding: 32px;
+  margin: 0px auto;
 }
 
 a {
@@ -38,3 +44,24 @@ table {
   width: 80%;
   margin: auto;
 }
+
+#keplet{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+p{
+  text-align: justify;
+  line-height: 120%;
+  text-indent: 0px;
+}
+
+
+
+
+
+
+
